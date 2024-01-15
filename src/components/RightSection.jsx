@@ -38,7 +38,6 @@ function RightSection() {
               e.preventDefault();
               setPrompt("");
               setLoading(true);
-              // Make POST API call to localhost:8000/api/chat
 
               const res = await fetch(`${URL}/api/chat`, {
                 method: "POST",
@@ -61,7 +60,7 @@ function RightSection() {
             }}
           >
             <div className="relative flex h-full flex-1 flex-col">
-              <div className="flex flex-col w-full flex-grow py-3 relative border border-black/10 dark:border-gray-900/50 text-white rounded-md bg-[rgba(64,65,79, var(--tw-bg-opacity))]">
+              <div className="flex flex-col w-full flex-grow py-3 relative border border-solid border-1 border-indigo-600 border-black/10 dark:border-gray-900/50 text-white rounded-md bg-[rgba(64,65,79, var(--tw-bg-opacity))]">
                 <input
                   className="m-0 w-full resize-none border-0 bg-transparent pl-4 focus:ring-0 focus-visible:ring-0 outline-none overflow-y-hidden h-[23px]"
                   value={prompt}
@@ -77,8 +76,8 @@ function RightSection() {
           </form>
           <div className="text-center text-xs text-gray-100/50 px-4 pt-3 pb-6">
             <span>
-              ChatGPT may produce inaccurate information about people, places or
-              facts.
+              Chat Assistant may produce inaccurate information about people,
+              places or facts.
             </span>
           </div>
         </div>

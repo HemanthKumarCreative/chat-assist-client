@@ -60,7 +60,7 @@ function RightSection() {
             }}
           >
             <div className="relative flex h-full flex-1 flex-col">
-              <div className="flex flex-col w-full flex-grow py-3 relative border border-solid border-1 border-indigo-600 border-black/10 dark:border-gray-900/50 text-white rounded-md bg-[rgba(64,65,79, var(--tw-bg-opacity))]">
+              <div className="flex flex-col w-full flex-grow py-3 relative border border-solid border-2 border-violet-600 border-black/10 dark:border-gray-900/50 text-white rounded-md bg-[rgba(64,65,79, var(--tw-bg-opacity))]">
                 <input
                   className="m-0 w-full resize-none border-0 bg-transparent pl-4 focus:ring-0 focus-visible:ring-0 outline-none overflow-y-hidden h-[23px]"
                   value={prompt}

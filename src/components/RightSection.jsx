@@ -1,7 +1,7 @@
 import { LoadingIcon, PlaneIcon } from "../assets/icons";
 import { useState } from "react";
 import QuestionAnswer from "./QuestionAnswer";
-const URL = "https://chat-assist-server.onrender.com";
+const URL = "https://chat-assist-server-4hjx.onrender.com";
 
 function RightSection() {
   const [prompt, setPrompt] = useState("");
